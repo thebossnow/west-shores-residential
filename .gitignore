@@ -1,0 +1,4 @@
+# Never commit personal/business contact info or local notes into this public repo
+*Company Info*
+*.env*
+.DS_Store
