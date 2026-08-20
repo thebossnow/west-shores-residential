@@ -2,3 +2,10 @@
 *Company Info*
 *.env*
 .DS_Store
+*:Zone.Identifier
+
+# Raw/unoptimized source photos - keep the optimized copies in images/ instead
+/*.jpg
+/*.JPG
+/*.png
+/*.PNG
