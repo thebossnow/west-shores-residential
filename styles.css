@@ -157,6 +157,8 @@ p { margin: 0 0 1rem; }
 }
 .nav a:hover { border-bottom-color: var(--vial); }
 .nav a[aria-current="page"] { border-bottom-color: var(--kelp); }
+.nav a.lang-switch { opacity: 0.65; font-weight: 500; font-size: 0.85rem; }
+.nav a.lang-switch:hover { opacity: 1; }
 
 .nav-toggle {
   display: none;
