@@ -157,8 +157,15 @@ p { margin: 0 0 1rem; }
 }
 .nav a:hover { border-bottom-color: var(--vial); }
 .nav a[aria-current="page"] { border-bottom-color: var(--kelp); }
-.nav a.lang-switch { opacity: 0.65; font-weight: 500; font-size: 0.85rem; }
-.nav a.lang-switch:hover { opacity: 1; }
+.nav a.lang-switch {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  font-weight: 700; font-size: 0.9rem; color: var(--kelp);
+  border: 1.5px solid var(--kelp); border-radius: 999px;
+  padding: 0.3rem 0.8rem; margin-left: 0.25rem; line-height: 1.2;
+  transition: background 0.15s, color 0.15s;
+}
+.nav a.lang-switch::before { content: "\1F310"; font-size: 0.95em; }
+.nav a.lang-switch:hover, .nav a.lang-switch:focus-visible { background: var(--kelp); color: var(--paper); }
 
 .nav-toggle {
   display: none;
