@@ -1,24 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Google tag (GA4) - West Shores Residential. Replace G-XXXXXXXXXX with the real Measurement ID. -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-    document.addEventListener('click', function (e) {
-      var a = e.target.closest && e.target.closest('a[href^="tel:"]');
-      if (!a) return;
-      gtag('event', 'phone_click', {
-        phone_number: a.getAttribute('href').replace(/^tel:/, ''),
-        link_url: a.href,
-        page_location: window.location.href,
-        link_text: (a.textContent || '').trim().slice(0, 100)
-      });
-    });
-  </script>
+  <!-- Google Analytics 4 (ID set in /ga.js) -->
+  <script src="/ga.js"></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 40 40%27%3E%3Crect width=%2740%27 height=%2740%27 rx=%278%27 fill=%27%2312222b%27/%3E%3Crect x=%277%27 y=%2716%27 width=%2726%27 height=%278%27 rx=%274%27 fill=%27none%27 stroke=%27%23ffffff%27 stroke-opacity=%270.4%27/%3E%3Crect x=%2717%27 y=%2717.5%27 width=%279%27 height=%275%27 rx=%272.5%27 fill=%27%23c9db2e%27/%3E%3Cpath d=%27M6 30h28%27 stroke=%27%23c9db2e%27 stroke-width=%271.5%27 stroke-opacity=%270.5%27/%3E%3C/svg%3E">
@@ -98,6 +82,9 @@
 
       <h2>Sus opciones</h2>
       <p>Puede preguntarnos qué información tenemos sobre usted, pedirnos que la corrijamos, o pedirnos que la eliminemos cuando no estemos obligados a conservarla. Contáctenos en <a href="mailto:anderson.co.billing@gmail.com">anderson.co.billing@gmail.com</a> o al <a href="tel:+14722103644">(472) 210-3644</a>.</p>
+
+      <h2>Analítica y cookies</h2>
+      <p>Usamos Google Analytics para entender cómo se usa este sitio (por ejemplo, páginas visitadas y clics en nuestros números de teléfono). Google Analytics usa cookies y recopila datos de uso de forma agregada; no vendemos esta información. Puede bloquear las cookies en su navegador o usar el <a href="https://tools.google.com/dlpage/gaoptout">complemento de inhabilitación de Google Analytics</a>.</p>
 
       <h2>Cambios</h2>
       <p>Si esta política cambia, la versión actualizada se publicará aquí con una nueva fecha.</p>
